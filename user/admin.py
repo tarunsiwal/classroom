@@ -1,17 +1,3 @@
-from django.contrib import admin
-from django.contrib.auth.models import User
-from .models import Additional_Fiels
-from django.contrib.auth.admin import UserAdmin
-
-class AccountInline(admin.StackedInline):
-    model= Additional_Fiels
-    can_delete =False
-    verbose_name_plural = 'UsersProfile'
-
-class CustomizedUserAdmin(UserAdmin):
-    inlines = (AccountInline, )
-
-admin.site.unregister(User)
-admin.site.register(User,CustomizedUserAdmin)
-
-admin.site.register(Additional_Fiels)
+version https://git-lfs.github.com/spec/v1
+oid sha256:7503a4e6008d682a898f4a622b544d80b81da01048cb116e4b5ff3bc0088ef55
+size 496

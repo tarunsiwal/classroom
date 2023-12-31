@@ -1,16 +1,3 @@
-"""
-WSGI config for portal project.
-
-It exposes the WSGI callable as a module-level variable named ``application``.
-
-For more information on this file, see
-https://docs.djangoproject.com/en/2.2/howto/deployment/wsgi/
-"""
-
-import os
-
-from django.core.wsgi import get_wsgi_application
-
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'portal.settings')
-
-application = get_wsgi_application()
+version https://git-lfs.github.com/spec/v1
+oid sha256:e035e63b6af3a8bc23963e164f7e87cdd4b0e81d710df7dfacb6a0384a5a5e29
+size 405

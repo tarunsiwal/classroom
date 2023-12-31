@@ -1,16 +1,3 @@
-const searchInput = document.querySelector("[data-search]")
-
-let file = []
-file ='{{files}}'
-console.log(file);
-
-searchInput.addEventListener("input", (e) => {
-    const value = e.target.value.toLowerCase()
-    console.log(value);
-    // files.forEach(file => {
-    //   const isVisible =
-    //     file.name.toLowerCase().includes(value) ||
-    //     file.created_at.toLowerCase().includes(value)
-    //   file.element.classList.toggle("hide", !isVisible)
-    // })
-  })
+version https://git-lfs.github.com/spec/v1
+oid sha256:cc963f21c7a6670aea83db0f04b89f02eae0cfef469c53956469187787065032
+size 490
